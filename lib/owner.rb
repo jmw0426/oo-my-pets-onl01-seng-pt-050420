@@ -36,7 +36,7 @@ class Owner
   
   def buy_cat(meow) 
     meow = Cat.new
-    self.cats << meow
+    self.meow
   end
   
   def buy_dog(woof)
