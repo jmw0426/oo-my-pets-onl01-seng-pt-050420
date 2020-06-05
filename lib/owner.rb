@@ -40,7 +40,7 @@ class Owner
   end
   
   def buy_dog(woof)
-    
+    Dog.new(woof, self)
   end
   
   def feed_cats  
