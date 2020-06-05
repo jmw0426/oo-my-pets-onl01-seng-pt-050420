@@ -36,7 +36,6 @@ class Owner
   
   def buy_cat(meow) 
     Cat.new(meow, self)
-    
   end
   
   def buy_dog(woof)
